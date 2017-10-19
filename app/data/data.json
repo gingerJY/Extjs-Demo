@@ -1,0 +1,103 @@
+[
+  {
+    text: 'Panels',
+    id: 'panels',
+    expanded: true,
+    children: [
+      {
+        id: 'personal-main',
+        text: 'personal information',
+        leaf: true
+      },
+      {
+        id: 'framed-panels',
+        text: 'framed-panels',
+        leaf: true
+      },
+      {
+        id: 'panel-header-position',
+        text: 'Header Positioning',
+        leaf: true
+      }
+    ]
+  },
+  {
+    text: 'Grids',
+    id: 'grids',
+    expanded: true,
+    children: [
+      {
+        id: 'array-grid',
+        text: 'Array Grid',
+        leaf: true
+      },
+      {
+        id: 'grouped-grid',
+        text: 'Grouped Grid',
+        leaf: true
+      },
+      {
+        id: 'locking-grid',
+        text: 'Locking Grid',
+        leaf: true
+      },
+      {
+        id: 'grouped-header-grid',
+        text: 'Grouped Header Grid',
+        leaf: true
+      },
+      {
+        id: 'multi-sort-grid',
+        text: 'Multiple Sort Grid',
+        leaf: true
+      },
+    ]
+  },
+  {
+    text: 'Trees',
+    id: 'trees',
+    expanded: true,
+    children: [
+      {
+        id: 'basic-trees',
+        text: 'Basic Trees',
+        leaf: true
+      },
+      {
+        id: 'tree-reorder',
+        text: 'Tree Reorder',
+        leaf: true
+      },
+      {
+        id: 'tree-grid',
+        text: 'Tree Grid',
+        leaf: true
+      },
+      {
+        id: 'tree-two',
+        text: 'Two Trees',
+        leaf: true
+      },
+      {
+        id: 'check-tree',
+        text: 'Check Tree',
+        leaf: true
+      },
+      {
+        id: 'tree-xml',
+        text: 'XML Tree',
+        leaf: true
+      },
+      {
+        id: 'filtered-tree',
+        text: 'Filtered Tree',
+        leaf: true
+      },
+      {
+        id: 'heterogeneous-tree',
+        text: 'Heterogeneous Tree',
+        leaf: true
+      }
+    ]
+  },
+]

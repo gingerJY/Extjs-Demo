@@ -9,6 +9,12 @@ Ext.define('MaiJiangDou.view.main.MainController', {
 
     alias: 'controller.main',
 
+    control: {  
+        'main-left': {//组件别名，表示要控制的是该组件  
+            selectionchange: 'onTreeNavSelectionChange'  
+        }  
+    }, 
+
     onLoginOutClick: function () {
         // Remove the localStorage key/value
         localStorage.removeItem('TutorialLoggedIn');
@@ -20,5 +26,13 @@ Ext.define('MaiJiangDou.view.main.MainController', {
         Ext.create({
             xtype: 'login'
         });
+    },
+
+    onTreeNavSelectionChange: function(selModel, records) {  
+        var record = records[0];  
+        if (record) {  
+            this.redirectTo(record.getId()); 
+            alert(record.getId()) 
+        }  
     },
 });

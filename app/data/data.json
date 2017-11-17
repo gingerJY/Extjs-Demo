@@ -5,8 +5,8 @@
     expanded: true,
     children: [
       {
-        id: 'personal-main',
-        text: 'personal information',
+        id: 'one-main',
+        text: 'pageOne',
         leaf: true
       },
       {
